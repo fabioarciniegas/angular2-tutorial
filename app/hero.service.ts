@@ -6,8 +6,14 @@ import { HEROES } from './mock-heroes';
 export class HeroService {
        getHeroes(){
 	return new Promise<Hero[]>(resolve =>
-	    setTimeout(() => resolve(HEROES), 2000) // 2 seconds
+	    setTimeout(() => resolve(HEROES), 1) 
 	      );
   // return Promise.resolve(HEROES);
 	}
+
+getHero(id: number) {
+  return this.getHeroes()
+             .then(heroes => heroes.find(hero => hero.id === id));
+}
+
 }
