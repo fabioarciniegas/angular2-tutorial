@@ -10,3 +10,5 @@ This repository is organized by tags, corresponding to each lesson:
  - v1.3 Modularizing version 1.2 into more than one component (https://angular.io/docs/ts/latest/tutorial/toh-pt3.html)
  - v1.4 Services and promises (https://angular.io/docs/ts/latest/tutorial/toh-pt4.html#!#slow)
  - v1.5 Routing (https://angular.io/docs/ts/latest/tutorial/toh-pt5.html)
+ - v1.6 HTTP server and search (https://angular.io/docs/ts/latest/tutorial/toh-pt6.html)
+
